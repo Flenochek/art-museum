@@ -1,0 +1,33 @@
+.header {
+      display: flex;
+      justify-content: center; /* Центрируем содержимое */
+      align-items: center;
+      background-color: #4b4956; /* Фон с цветом #4b4956 */
+      width: 100%; /* Растягиваем фон на всю ширину */
+      height: 120px; /* Увеличенная высота фона */
+      padding: 10px 0; /* Увеличенные отступы сверху и снизу */
+      margin-bottom: 80px; /* Увеличиваем отступ снизу, чтобы создать пространство между Header и BackgroundImage */
+    }
+    
+    .nav {
+      display: flex;
+      justify-content: center; /* Центрируем элементы по горизонтали */
+      gap: 40px; /* Равные расстояния между элементами */
+      align-items: center;
+    }
+    
+    .nav-item {
+      font-size: 18px;
+      color: white; /* Белый цвет текста */
+      text-transform: uppercase; /* Все буквы заглавные */
+      text-decoration: none; /* Без подчеркивания */
+      font-weight: 500;
+      padding: 8px 16px; /* Добавляем внутренние отступы для увеличения области вокруг текста */
+      border-radius: 50px; /* Овальная форма рамки */
+      transition: all 0.3s ease; /* Плавное появление рамки при наведении */
+    }
+    
+    .nav-item:hover {
+      border: 2px solid white; /* Белая рамка при наведении */
+      color: white; /* Цвет текста остаётся белым */
+    }
