@@ -1,19 +1,19 @@
 import React from "react";
 import Header from "./components/Header/Header";
-import BackgroundImage from "./components/BackgroundImage/BackgroundImage"; 
-import InfoItem from "./components/InfoItem/InfoItem";  
+import MuseumNews from "./components/MuseumNews/MuseumNews";
+import LandingSection from "./components/LandingSection/LandingSection";
+
+
 
 import "./App.css";
 
 const App = () => {
   return (
-    <div className="app">
+    <div className="app">    
+      <Header /> 
+      <LandingSection/>   
+      <MuseumNews />
       
-      <Header />
-      <BackgroundImage />
-      
-
-     
     </div>
   );
 };
