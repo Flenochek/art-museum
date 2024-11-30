@@ -1,34 +1,72 @@
+.header-background {
+  background-color: #edefeb;
+  width: 100%; 
+  padding: 20px 0; 
+}
+
 .header {
-      background-image: url('/images/main.png');
-      background-size: cover;
-      background-position: center;
-      width: 100%;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-    }
-    
-    .nav {
-      display: flex;
-      gap: 40px; 
-      justify-content: center; 
-      align-items: center;
-    }
-    
-    .nav-item {
-      font-size: 18px;
-      color: white;
-      text-transform: uppercase; 
-      text-decoration: none; 
-      font-weight: 500;
-      padding: 8px 20px; 
-      border-radius: 50px; 
-     
-    }
-    
-    .nav-item:hover {
-      border: 2px solid white;
-      color: white; 
-    }
+  background-color: #fff; 
+  padding: 10px 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 30px; 
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 40px; 
+}
+
+.logo img {
+  width: 40px; 
+  margin-right: 10px;
+}
+
+.logo span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.menu ul {
+  list-style: none; 
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0 15px; 
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #b4966e; 
+}
+
+
+.profile-button {
+  background-color: #b4966e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 30px; 
+}
+
+.profile-button:hover {
+  background-color: #9f8761; 
+}
